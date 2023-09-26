@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    border: 2px solid #024059;
+    background-color: #fff;
+    height: 99vh;
+    min-width: 400px;
+    gap: 24px;
+    padding: 24px;
+}
+
+.content-wrapper .box{
+    border: 2px solid #024059;  
+}
+
+.content-wrapper .titulo-sindicato, .titulo-patron{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-wrapper .botones-sindicato, .botones-patron{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
